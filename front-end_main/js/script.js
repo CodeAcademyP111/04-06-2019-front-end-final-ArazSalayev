@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+	$(".navbar-nav .nav-link ").attr("style", "color: white !important");
 	var check=true;
 	$(window).scroll(function () {
 		if (scrollY > 140) {
@@ -10,7 +10,7 @@ $(document).ready(function () {
 		} else {
 			$("header").css("background-color", "");
 			$(".navbar-brand img").attr("src", "img/brand.png");
-			$(".navbar-nav .nav-link ").attr("style", "");
+			$(".navbar-nav .nav-link ").attr("style", "color: white !important");
 			$("header").css("boxShadow", "0px 0px 0px lightgray");
 		}
 	// zzzzzzzzz// statistics counter///////////////////////////////////start zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz

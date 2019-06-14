@@ -287,21 +287,17 @@ main #results {
     z-index: 1; }
   main #results .container .row .col-3 {
     margin-top: 140px;
-    z-index: 99999 !important; }
+    z-index: 1 !important; }
     main #results .container .row .col-3 hr {
       width: 10%;
       height: 1px;
-      background-color: white;
-      z-index: 99999 !important; }
+      background-color: white; }
     main #results .container .row .col-3 h1 {
-      color: white;
-      z-index: 99999 !important; }
+      color: white; }
     main #results .container .row .col-3 span {
-      color: white;
-      z-index: 99999 !important; }
+      color: white; }
     main #results .container .row .col-3 p {
-      color: white;
-      z-index: 99999 !important; }
+      color: white; }
 main #our-blog {
   background: #f7f9fb; }
   main #our-blog .container {
